@@ -1,0 +1,16 @@
+.coolbox{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    transition: all 5s linear;
+}
+
+.coolbox:hover{
+    background-color: coral;
+    transform: rotate(360deg);
+}
+
+body{
+    background-color: black;
+}
